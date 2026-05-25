@@ -27,8 +27,8 @@
 ### Example 1
 
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/ism.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/ism.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
