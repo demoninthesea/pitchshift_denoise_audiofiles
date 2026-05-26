@@ -27,6 +27,7 @@
 ### Example 1
 
 <audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/wav">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
@@ -34,24 +35,5 @@
 
 <img src="{{ site.baseurl}}/examples/images/Fig9a.png" alt="Spectrgrom of ISM" style="height: 200px; width:600px;"/>
 
-### Example 2
 
-<audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/stochastic.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/stochastic.wav" type="audio/mpeg">
-  Your browser does not support the audio tag. 
-</audio>
-
-<img src="{{ site.baseurl}}/examples/images/Fig9b.png" alt="Spectrgrom of ISM" style="height: 200px; width:600px;"/>
-
-
-### Example 3
-
-<audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/combined.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/combined.wav" type="audio/mpeg">
-  Your browser does not support the audio tag. 
-</audio>
-
-<img src="{{ site.baseurl}}/examples/images/Fig9c.png" alt="Spectrgrom of ISM" style="height: 200px; width:600px;"/>
 
