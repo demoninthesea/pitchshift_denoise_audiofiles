@@ -31,6 +31,16 @@ layout:default
 
 ### Example 1
 
+1
+![Audio](examples/sounds/211_c_tower.wav)
+2
+![Music](examples/sounds/211_c_tower.wav)
+3
+![Audio](https://github.com/demoninthesea/pitchshift_denoise_audiofiles/tree/main/docs/examples/sounds/211_c_tower.wav)
+duh
+
+
+
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/wav">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
