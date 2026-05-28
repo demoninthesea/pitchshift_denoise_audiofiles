@@ -18,32 +18,39 @@
 
 
     
-# Supplemental Material
+# Audio Examples
 
 
-## Section 1
+## Chapter 2 - Fundamentals
  
 
-### Example 1
+### 2.1.1 Pitch Shifting Methods
 
-1
-![Audio](examples/sounds/211_c_tower.wav)
-2
-![Music](examples/sounds/211_c_tower.wav)
-3
-![Audio](https://github.com/demoninthesea/pitchshift_denoise_audiofiles/tree/main/docs/examples/sounds/211_c_tower.wav)
-duh
-
-
-
+"Andante" Reference sample.
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/wav">
+  <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+"Andante" sample with frequency magnitudes shifted upwards.
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+C notes played from lowest (C1) to highest (C8).
+<audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-<img src="{{ site.baseurl}}/examples/images/Fig9a.png" alt="Spectrgrom of ISM" style="height: 200px; width:600px;"/>
+
+## Chapter 3 - Methods
+
+### 3.2.1 Evaluation Dataset
 
 
 
