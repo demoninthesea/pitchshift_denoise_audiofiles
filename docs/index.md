@@ -544,35 +544,35 @@ Baseline:
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=5/8,\xi'=0.05$, without filter:
+$t_0=5/8,\xi'=0.05$, without filter
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_xi05_T63.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_xi05_T63.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=5/8,\xi'=0.05$, filter $H_{filt,1}$:
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,1}$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=5/8,\xi'=0.05$, filter $H_{filt,2}$:
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,2}$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak2.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak2.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=5/8,\xi'=0.05$, filter $H_{filt,3}$:
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,3}$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak3.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak3.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline, filter $H_{filt,1}$:
+Baseline, filter $H_{filt,1}$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1_baseline.wav" type="audio/mpeg">
@@ -580,7 +580,252 @@ Baseline, filter $H_{filt,1}$:
 </audio>
 
 
+### 4.4.1 Very high notes
+**"High Scale" sample**
 
+#### Upwards pitch shift $\Delta p=12$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.05$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_xi05_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_xi05_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+#### Downwards pitch shift $\Delta p=-12$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=1/2,\xi'=0.1$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_xi10_T50.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_xi10_T50.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=1/2,\xi'=0.1$, filter $H_{peak,1}$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_peak1.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_peak1.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+
+
+### 4.4.2 Very low notes
+**"Low Scale" sample**
+
+#### Upwards pitch shift $\Delta p=12$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_xi0_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_xi0_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.2$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_xi20_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_xi20_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+#### Downwards pitch shift $\Delta p=-12$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline with larger phase vocoder window:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline4096.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline4096.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.1$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_xi10_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_xi10_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+
+### 4.4.3 Strong polyphony
+**"Chords" sample**
+
+#### Upwards pitch shift $\Delta p=12$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.1$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_xi10_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_xi10_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+#### Downwards pitch shift $\Delta p=-6$
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.1$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_xi10_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_xi10_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+
+### 4.4.4 Silence
+
+#### "Spaced" sample
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=1,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T100.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T100.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=7/8,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T88.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T88.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=3/4,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T75.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T75.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi0_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=1,\xi'=0.05$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi05_T100.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_spaced_xi05_T100.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+#### Silence as input
+$t_0=1,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T100.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T100.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=7/8,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T88.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T88.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=3/4,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T75.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T75.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi0_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=1,\xi'=0.05$
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi05_T100.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi05_T100.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
 
 
 
