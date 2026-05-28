@@ -19,9 +19,7 @@
 
     
 # Audio Examples
-
-[toc]
-
+[TOC]
 
 ## Chapter 2 - Fundamentals
  
