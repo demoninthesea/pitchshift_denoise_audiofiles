@@ -20,6 +20,8 @@
     
 # Audio Examples
 
+[toc]
+
 
 ## Chapter 2 - Fundamentals
  
@@ -116,7 +118,9 @@ Spaced
 ### 4.1 Digital artifacts caused by TSM pitch shifting
 
 "Andante" sample with different pitch shifts $\Delta p$. Spectrograms in Fig. 4.2.
-MIDI shifted reference samples:
+
+**MIDI shifted reference samples:**
+
 $\Delta p=-12$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/410_andante_p-12_ref.wav" type="audio/ogg">
@@ -152,7 +156,8 @@ $\Delta p=12$
   Your browser does not support the audio tag. 
 </audio>
 
-TSM shifted samples:
+**TSM shifted samples:**
+
 $\Delta p=-12$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/410_andante_p-12_baseline.wav" type="audio/ogg">
@@ -192,6 +197,7 @@ $\Delta p=12$
 ### 4.1.1 Upwards pitch shift
 
 "Saltsea" sample with $\Delta p=12$.
+
 Reference:
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/411_saltsea_p12_ref.wav" type="audio/ogg">
