@@ -19,28 +19,28 @@
 
     
 # Audio Examples
-[TOC]
+
 
 ## Chapter 2 - Fundamentals
  
 
 ### 2.1.1 Pitch Shifting Methods
 
-"Andante" Reference sample. Spectrogram see Fig. 2.1 (left).
+"Andante" Reference sample
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-"Andante" sample with frequency magnitudes shifted upwards. Spectrogram in Fig. 2.1 (right).
+"Andante" sample with frequency magnitudes shifted upwards
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-C notes played from lowest (C1) to highest (C8). Spectrogram in Fig. 2.2.
+C notes played from lowest (C1) to highest (C8)
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/mpeg">
@@ -115,7 +115,7 @@ Spaced
 
 ### 4.1 Digital artifacts caused by TSM pitch shifting
 
-"Andante" sample with different pitch shifts $\Delta p$. Spectrograms in Fig. 4.2.
+"Andante" sample with different pitch shifts $\Delta p$.
 
 **MIDI shifted reference samples:**
 
@@ -196,14 +196,14 @@ $\Delta p=12$
 
 "Saltsea" sample with $\Delta p=12$.
 
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/411_saltsea_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/411_saltsea_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/411_saltsea_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/411_saltsea_p12_baseline.wav" type="audio/mpeg">
@@ -215,7 +215,7 @@ Baseline:
 
 "Saltsea" sample with $\Delta p=0$ at different denoiser configurations. 
 
-Reference (Spectrogram in Fig. 4.7 (right))
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/421_saltsea_p0_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/421_saltsea_p0_ref.wav" type="audio/mpeg">
@@ -236,7 +236,7 @@ $t_0=7/8,\xi'=0$
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=5/8,\xi'=0$ (Spectrogram in Fig. 4.7 (left))
+$t_0=5/8,\xi'=0$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/421_saltsea_p0_xi0_T63.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/421_saltsea_p0_xi0_T63.wav" type="audio/mpeg">
@@ -261,14 +261,14 @@ $t_0=1,\xi'=0.2$
 ### 4.2.2 Diffusion model results - Upwards pitch shift
 
 #### "Saltsea", $\Delta p=3$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p3_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p3_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p3_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p3_baseline.wav" type="audio/mpeg">
@@ -304,14 +304,14 @@ $t_0=1/2,\xi'=0.2$
 </audio>
 
 #### "Saltsea", $\Delta p=6$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p6_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p6_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p6_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p6_baseline.wav" type="audio/mpeg">
@@ -326,14 +326,14 @@ $t_0=3/4,\xi'=0.25$
 </audio>
 
 #### "Saltsea", $\Delta p=9$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p9_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p9_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p9_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p9_baseline.wav" type="audio/mpeg">
@@ -348,14 +348,14 @@ $t_0=3/4,\xi'=0.25$
 </audio>
 
 #### "Saltsea", $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_saltsea_p12_baseline.wav" type="audio/mpeg">
@@ -391,14 +391,14 @@ $t_0=7/8,\xi'=0.3$
 </audio>
 
 #### "Medium Scale", $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_baseline.wav" type="audio/mpeg">
@@ -413,14 +413,14 @@ $t_0=3/4,\xi'=0.15$
 </audio>
 
 #### "Boogie", $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_boogie_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_boogie_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/422_boogie_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/422_boogie_p12_baseline.wav" type="audio/mpeg">
@@ -439,14 +439,14 @@ $t_0=3/4,\xi'=0.15$
 ### 4.2.3 Diffusion model results - Downwards pitch shift
 
 #### "Saltsea", $\Delta p=-3$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_baseline.wav" type="audio/mpeg">
@@ -461,14 +461,14 @@ $t_0=1/2,\xi'=0.05$
 </audio>
 
 #### "Saltsea", $\Delta p=-6$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_baseline.wav" type="audio/mpeg">
@@ -483,14 +483,14 @@ $t_0=5/8,\xi'=0.05$
 </audio>
 
 #### "Saltsea", $\Delta p=-9$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-9_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-9_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-9_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-9_baseline.wav" type="audio/mpeg">
@@ -505,14 +505,14 @@ $t_0=3/8,\xi'=0.05$
 </audio>
 
 #### "Saltsea", $\Delta p=-12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-12_baseline.wav" type="audio/mpeg">
@@ -528,16 +528,16 @@ $t_0=5/8,\xi'=0.05$
 
 
 ### 4.3 Overtone amplification using peak filters
-**"Saltsea" sample, $\Delta p=-12$.**
+**Using "Saltsea" sample with $\Delta p=-12$.**
 
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_baseline.wav" type="audio/mpeg">
@@ -581,17 +581,17 @@ Baseline, filter $H_{filt,1}$
 
 
 ### 4.4.1 Very high notes
-**"High Scale" sample**
+**Using "High Scale" sample**
 
 #### Upwards pitch shift $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p12_baseline.wav" type="audio/mpeg">
@@ -606,14 +606,14 @@ $t_0=5/8,\xi'=0.05$
 </audio>
 
 #### Downwards pitch shift $\Delta p=-12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/441_highscale_p-12_baseline.wav" type="audio/mpeg">
@@ -637,17 +637,17 @@ $t_0=1/2,\xi'=0.1$, filter $H_{peak,1}$
 
 
 ### 4.4.2 Very low notes
-**"Low Scale" sample**
+**Using "Low Scale" sample**
 
 #### Upwards pitch shift $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p12_baseline.wav" type="audio/mpeg">
@@ -669,21 +669,21 @@ $t_0=5/8,\xi'=0.2$
 </audio>
 
 #### Downwards pitch shift $\Delta p=-12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline with larger phase vocoder window:
+Baseline with larger phase vocoder window
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline4096.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/442_lowscale_p-12_baseline4096.wav" type="audio/mpeg">
@@ -699,17 +699,17 @@ $t_0=5/8,\xi'=0.1$
 
 
 ### 4.4.3 Strong polyphony
-**"Chords" sample**
+**Using "Chords" sample**
 
 #### Upwards pitch shift $\Delta p=12$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p12_baseline.wav" type="audio/mpeg">
@@ -724,14 +724,14 @@ $t_0=5/8,\xi'=0.1$
 </audio>
 
 #### Downwards pitch shift $\Delta p=-6$
-Reference:
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-Baseline:
+Baseline
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_baseline.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/443_chords_p-6_baseline.wav" type="audio/mpeg">
@@ -748,8 +748,8 @@ $t_0=5/8,\xi'=0.1$
 
 ### 4.4.4 Silence
 
-#### "Spaced" sample
-Reference:
+#### "Spaced" sample, no pitch shift
+Reference
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/444_spaced_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/444_spaced_ref.wav" type="audio/mpeg">
@@ -820,7 +820,7 @@ $t_0=5/8,\xi'=0$
   Your browser does not support the audio tag. 
 </audio>
 
-$t_0=1,\xi'=0.05$
+$t_0=1,\xi'=0.05$, amplified by $50\mathrm{dB}$
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi05_T100.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/444_silence_xi05_T100.wav" type="audio/mpeg">
