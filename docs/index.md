@@ -26,21 +26,21 @@
 
 ### 2.1.1 Pitch Shifting Methods
 
-"Andante" Reference sample.
+"Andante" Reference sample. Spectrogram see Fig. 2.1 (left).
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-"Andante" sample with frequency magnitudes shifted upwards.
+"Andante" sample with frequency magnitudes shifted upwards. Spectrogram see Fig. 2.1 (right).
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_andante_deepfried.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
-C notes played from lowest (C1) to highest (C8).
+C notes played from lowest (C1) to highest (C8). Spectrogram see Fig. 2.2.
 <audio controls>
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/ogg">
   <source src="{{ site.baseurl}}/examples/sounds/211_c_tower.wav" type="audio/mpeg">
@@ -52,5 +52,62 @@ C notes played from lowest (C1) to highest (C8).
 
 ### 3.2.1 Evaluation Dataset
 
+All samples used throughout the thesis:
+
+Andante
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_andante.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_andante.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Saltsea
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_saltsea.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_saltsea.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Boogie
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_boogie.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_boogie.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Chords
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_chords.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_chords.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Low Scale
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_lowscale.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_lowscale.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Medium Scale
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_mediumscale.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_mediumscale.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+High Scale
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_highscale.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_highscale.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Spaced
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/321_spaced.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/321_spaced.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
 
 
