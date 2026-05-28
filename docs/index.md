@@ -393,22 +393,22 @@ $t_0=7/8,\xi'=0.3$
 #### "Medium Scale", $\Delta p=12$
 Reference:
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_ref.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_ref.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
 Baseline:
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_baseline.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_baseline.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_baseline.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
 $t_0=3/4,\xi'=0.15$
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_xi15_T75.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/422_mediumscale_p12_xi15_T75.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_xi15_T75.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/422_medscale_p12_xi15_T75.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
@@ -441,22 +441,22 @@ $t_0=3/4,\xi'=0.15$
 #### "Saltsea", $\Delta p=-3$
 Reference:
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_ref.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_ref.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_ref.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
 Baseline:
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_baseline.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_baseline.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_baseline.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
 $t_0=1/2,\xi'=0.05$
 <audio controls>
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_xi05_T50.wav" type="audio/ogg">
-  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-6_xi05_T50.wav" type="audio/mpeg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_xi05_T50.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-3_xi05_T50.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
 
@@ -525,6 +525,63 @@ $t_0=5/8,\xi'=0.05$
   <source src="{{ site.baseurl}}/examples/sounds/423_saltsea_p-12_xi05_T63.wav" type="audio/mpeg">
   Your browser does not support the audio tag. 
 </audio>
+
+
+### 4.3 Overtone amplification using peak filters
+**"Saltsea" sample, $\Delta p=-12$.**
+
+Reference:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_ref.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_ref.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.05$, without filter:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_xi05_T63.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_xi05_T63.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,1}$:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,2}$:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak2.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak2.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+$t_0=5/8,\xi'=0.05$, filter $H_{filt,3}$:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak3.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak3.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+Baseline, filter $H_{filt,1}$:
+<audio controls>
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1_baseline.wav" type="audio/ogg">
+  <source src="{{ site.baseurl}}/examples/sounds/430_saltsea_p-12_peak1_baseline.wav" type="audio/mpeg">
+  Your browser does not support the audio tag. 
+</audio>
+
+
+
+
 
 
 
